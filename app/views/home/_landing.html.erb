@@ -1,4 +1,4 @@
-<section id="1" class="window section1">
+        <section id="1" class="window section1">
 			<section class="landing" id="l0">	
 				<div class="container">
 					<div class="row">
@@ -41,7 +41,7 @@
     					<div class="navbar-header">
       						<a class="navbar-brand" href="#l0">
       							<div>
-      						<%=image_tag("logo.png", :border=>0, :class => "logoimg")%> </div><div><span class="brand">STRICTLY SCHOLARSHIP</span></div></a>
+      						<%=image_tag("logo.png", :border=>0, :class => "logoimg")%> </div><div><span class="brand">STRICTLY <span class="hidden-sm hidden-xs">SCHOLARSHIP</span></span></div></a>
       						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 	        					<span class="sr-only">Toggle navigation</span>
         						<span class="icon-bar"></span>
@@ -67,12 +67,49 @@
 			
 			</section>
 			<section class="landing" id="l3">
-				
+                <div class="container">
+                    <div class="row destacados">
+                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
+                            <div href="" data-toggle="modal" data-target="#Modal1">
+                                <img src="http://graph.facebook.com/saket.the.elysium/picture" alt="Texto Alternativo"
+                                class="img-circle img-thumbnail img-color">
+                                <h2>Saket Shukla</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="" class="btn btn-primary"><b>f</b></a>
+                                <a href="" class="btn btn-info"><b>t</b></a>
+                                <a href="" class="btn btn-danger"><b>g+</b></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
+                            <div href="" data-toggle="modal" data-target="#Modal2">
+                                <img src="http://lorempixel.com/200/200/abstract/2/" alt="Texto Alternativo"
+                                class="img-circle img-thumbnail img-color">
+                                <h2>Akash Barik</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="" class="btn btn-primary"><b>f</b></a>
+                                <a href="" class="btn btn-info"><b>t</b></a>
+                                <a href="" class="btn btn-danger"><b>g+</b></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
+                            <div href="" data-toggle="modal" data-target="#Modal3">
+                                <img src="http://lorempixel.com/200/200/abstract/3/" alt="Texto Alternativo"
+                                class="img-circle img-thumbnail img-color">
+                                <h2>Nitesh Sisodia</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="" class="btn btn-primary"><b>f</b></a>
+                                <a href="" class="btn btn-info"><b>t</b></a>
+                                <a href="" class="btn btn-danger"><b>g+</b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</section>
 		</section>
-		<section id="2" class="window section2">
-			
-		</section>
+		
 		<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
 		
 			
@@ -87,3 +124,111 @@
 		<div class="top">
            <a href="#l0"> ^ </a>
         </div>
+        
+        
+        
+        
+        <!-- Modal -->
+    <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog loginModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">More About Saket</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="http://graph.facebook.com/saket.the.elysium/picture" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Saket Shukla <small>India</small></h3>
+                    <span><strong>Skills: </strong></span>
+                        <span class="label label-warning">HTML5/CSS</span>
+                        <span class="label label-info">Bootstap</span>
+                        <span class="label label-danger">C/C++/C#/Ruby/Rails</span>
+                        <span class="label label-success">Windows Phone/ Blackberry 10/ NS40</span>
+                        <span class="label label-primary">Windows XP, Vista, 7,8</span>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Saket</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+    <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Akash Barik <small>India</small></h3>
+                    <span><strong>Skills: </strong></span>
+                        <span class="label label-warning">HTML5/CSS</span>
+                        <span class="label label-info">Adobe CS 5.5</span>
+                        <span class="label label-info">Ruby on Rails</span>
+                        <span class="label label-success">Windows XP, Vista, 7</span>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Akash</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+    <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">More About Nitesh</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Nitesh Sisodia <small>India</small></h3>
+                    <span><strong>Skills: </strong></span>
+                        <span class="label label-warning">HTML5/CSS</span>
+                        <span class="label label-info">Ruby on Rails</span>
+                        <span class="label label-success">Windows XP, Vista, 7</span>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Nitesh</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
